@@ -36,7 +36,6 @@ const content: TabContent[] = [
     title: "TEDxCCET",
     description:
       "The first-ever TEDxCCET at Carmel College of Engineering & Technology (CCET) is something we are quite excited about! Our dedication to encouraging creativity, inspiration and insightful conversation is demonstrated by this event. CCET is pleased to welcome the TEDx platform to our campus as a forward-thinking organization committed to academic excellence. TEDxCCET will bring together intellectuals and thought leaders. Join us on this journey of exploration, discovery and inspiration at TEDxCCET. Together, let’s embrace the power of ideas to ignite change and transform lives.",
-    video: "https://www.youtube.com/embed/eVFzbxmKNUw",
   },
 ];
 
@@ -93,7 +92,7 @@ export default function About() {
           <div className="relative h-[250px] md:h-[400px] w-full rounded-2xl overflow-hidden bg-neutral-900 border border-neutral-800 shadow-2xl shadow-red-900/20">
             <iframe
               className="w-full h-full object-cover"
-              src="https://www.youtube.com/embed/eVFzbxmKNUw?autoplay=1&mute=1&loop=1&playlist=eVFzbxmKNUw&controls=0"
+              src="https://www.youtube.com/embed/d0NHOpeczUU?autoplay=1&mute=1&loop=1&playlist=d0NHOpeczUU&controls=0"
               title="TEDxCCET"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

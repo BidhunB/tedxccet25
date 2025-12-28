@@ -276,7 +276,7 @@ export default function Timeline() {
                   {isEven ? (
                     // Even Index (0, 2...): Time on Left
                     <div
-                      className={`inline-block ${
+                      className={`hidden md:inline-block ${
                         event.isHighlight
                           ? "bg-red-600 text-white border-transparent"
                           : "text-neutral-500 border-transparent bg-transparent"
@@ -349,7 +349,7 @@ export default function Timeline() {
                   ) : (
                     // Odd Index (1, 3...): Time on Right
                     <div
-                      className={`inline-block ${
+                      className={`hidden md:inline-block ${
                         event.isHighlight
                           ? "bg-red-600 text-white border-transparent"
                           : "text-neutral-500 border-transparent bg-transparent"

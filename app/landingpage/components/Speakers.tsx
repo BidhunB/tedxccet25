@@ -4,43 +4,51 @@ import { useRef } from "react";
 import Image from "next/image";
 import { ParticleCard, GlobalSpotlight } from "@/components/ui/magic-card";
 
-const speakers = [
-  {
-    name: "Lt.Col. Rishi",
-    role: "Neuroscientist & Fear Researcher",
-    org: "MIT Media Lab",
-    image: "/speakers/Lt.Col. Rishi 1.png",
-  },
-  {
+{/*{
     name: "Akhil P",
     role: "Serial Entrepreneur",
     org: "Founder, NexGen AI",
     image: "/speakers/akhilp.png",
+  }, */}
+
+const speakers = [
+  {
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
   },
   {
-    name: "Alakananda",
-    role: "Climate Activist",
-    org: "Green Future Foundation",
-    image: "/speakers/alakananda.png",
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
   },
   {
-    name: "Dr. Gangadharan",
-    role: "Tech Philosopher",
-    org: "Author & Speaker",
-    image: "/speakers/gangadharandr.png",
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
   },
   {
-    name: "Job Kurian",
-    role: "Paralympic Champion",
-    org: "Indian Sports Authority",
-    image: "/speakers/jobkurian.png",
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
   },
   {
-    name: "Joy",
-    role: "Space Scientist",
-    org: "ISRO",
-    image: "/speakers/joy.png",
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
   },
+  {
+    name: "Default",
+    role: "Default",
+    org: "Default",
+    image: "/speakers/default.png",
+  },
+  
 ];
 
 export default function Speakers() {
