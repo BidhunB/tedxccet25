@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-5 left-5 right-5 z-50 flex items-center justify-between px-6 py-4 bg-black/50 backdrop-blur-md border border-white/10 rounded-full">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-black/50 backdrop-blur-md border-b border-white/10">
       <div className="flex items-center gap-2">
         <Link href="/">
           <Image
